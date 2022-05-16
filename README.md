@@ -1,22 +1,15 @@
-# 📊 Project: Simple API 1
+# Joke Generator
+An site that generates random jokes or finds them based on a parameter.
 
-### Goal: Display data returned from an api
+**Link to project:** https://lashay-simple-api.netlify.app/
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, Framework of choice
+
+This was built using a Joke API that returns random jokes. I add an optional parameter so the user could search for specific jokes. Once the request for a joke is returned, showed the response to the user using Javascript to place it in the DOM.
+
+## Lessons Learned:
+
+Initially this only had the option of selecting a random joke but I also learned to add additional parameters to filter it out further. 
